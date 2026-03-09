@@ -67,7 +67,7 @@
    Create `.env` in the `server` directory:
    ```env
    PORT=5000
-   MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/taskdb
+   MONGODB_URI=[MONGODB_URI from .env]://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/taskdb
    JWT_SECRET=your_jwt_secret_key
    NODE_ENV=development
    ```
